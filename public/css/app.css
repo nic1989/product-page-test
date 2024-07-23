@@ -97,3 +97,89 @@ meter {
 body {
   font-family: "Kumbh Sans", sans-serif;
 }
+
+.fs-large {
+  font-size: 16px;
+}
+
+.fw-normal {
+  font-weight: 500;
+}
+
+.discount-per {
+  color: hsl(26, 100%, 55%);
+  background-color: hsl(25, 100%, 94%);
+  padding: 0 6px;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+}
+
+.add-to-cart {
+  background-color: hsl(26, 100%, 55%) !important;
+  border: none !important;
+}
+
+.basic-orange {
+  color: hsl(26, 100%, 55%);
+}
+
+.basic-white {
+  color: hsl(0, 0%, 100%);
+}
+
+.dis-price {
+  background-color: hsl(223, 64%, 98%);
+  padding: 5px;
+  color: hsl(0, 0%, 0%);
+  opacity: 0.3;
+  font-weight: 500;
+  text-decoration: line-through;
+}
+
+.bg-grey {
+  background-color: hsl(223, 64%, 98%) !important;
+}
+
+.icon-shape {
+  text-align: center;
+  vertical-align: middle;
+  border: none;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.icon-sm {
+  width: 40px;
+  height: 40px;
+}
+
+.button-minus {
+  border-radius: 10px 0 0 10px;
+}
+
+.button-plus {
+  border-radius: 0 10px 10px 0;
+}
+
+.h-40 {
+  height: 40px;
+}
+
+.img-border {
+  border: none;
+  border-radius: 10px;
+}
+
+.selected {
+  opacity: 0.5;
+}
+
+.border-selected {
+  border: 2px solid hsl(26, 100%, 55%);
+  border-radius: 12px;
+}
+
+.disabled {
+  opacity: 0.5;
+}
