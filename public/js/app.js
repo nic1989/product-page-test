@@ -19738,6 +19738,11 @@ __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 
 var app = (0,vue__WEBPACK_IMPORTED_MODULE_0__.createApp)({});
+app.config.globalProperties.$filters = {
+  money: function money(value) {
+    return parseFloat(value).toFixed(2);
+  }
+};
 app.use(_router__WEBPACK_IMPORTED_MODULE_1__["default"]);
 app.mount('#app');
 

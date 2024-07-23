@@ -5,7 +5,7 @@
 		</div>
 		<p class="about">{{ productData?.data?.description }}</p>
 		<div class="d-flex flex-row align-items-center">
-			<h4 class="fw-bold">${{ productData?.data?.price?.discounted }}</h4>
+			<h4 class="fw-bold">${{ $filters.money(productData?.data?.price?.discounted) }}</h4>
 			<div class="ms-2">
 				<span class="discount-per">
 					{{ productData?.data?.discount?.type !== 'percent' ? '$' : '' }}{{ productData?.data?.discount?.amount }}{{ productData?.data?.discount?.type === 'percent' ? '%' : '' }}
@@ -13,7 +13,7 @@
 			</div>
 		</div>
 		<div class="original-price mt-1">
-			<small class="dis-price">${{ productData?.data?.price?.full }}</small>
+			<small class="dis-price">${{ $filters.money(productData?.data?.price?.full) }}</small>
 		</div>  
 		<div class="cart mt-4 align-items-center d-flex flex-row">
 			<input
